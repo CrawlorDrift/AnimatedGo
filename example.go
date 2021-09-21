@@ -103,11 +103,6 @@ func init() {
 }
 
 func main() {
-	//err := http.ListenAndServe(":9090", nil)
-	//if err != nil {
-	//	fmt.Printf("http server failed, err:%v\n", err)
-	//	return
-	//}
 	if err := http.ListenAndServe(`:9090`, nil); err != nil {
 		fmt.Printf("http server failed, err:%v\n", err)
 		return
