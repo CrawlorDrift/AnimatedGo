@@ -1,1 +1,2 @@
-# 
+
+Call js in go
